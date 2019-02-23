@@ -10,4 +10,4 @@ class HealthBar(IObserver):
 
     def updated(self, observable, value):
         if isinstance(observable, Health):
-            print(self.name + " received " + str(value) + " damage and " + str(observable.get_value()))
+            print(self.name + " received " + str(value) + " damage and " + str(observable.get_value()) + " health left")
