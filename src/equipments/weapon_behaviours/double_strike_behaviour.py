@@ -2,7 +2,7 @@ from .i_weapon_behaviour import IWeaponBehaviour
 import random
 
 
-class DaggerBehaviour(IWeaponBehaviour):
+class DoubleStrikeBehaviour(IWeaponBehaviour):
 
     def calculate_damage(self, minimum):
         is_double_strike = random.randint(1, 100)

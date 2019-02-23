@@ -1,6 +1,6 @@
 from .i_weapon import IWeapon
 from ..i_equipment import EquipmentSlot
-from ..weapon_behaviours.sword_behaviour import SwordBehaviour
+from ..weapon_behaviours.critical_strike_behaviour import CriticalStrikeBehaviour
 
 
 class Sword(IWeapon):
@@ -9,5 +9,5 @@ class Sword(IWeapon):
         super().__init__()
         self.set_name("Sword")
         self.set_damage(10)
-        self.set_behaviour(SwordBehaviour())
+        self.set_behaviour(CriticalStrikeBehaviour())
         self.set_slot(EquipmentSlot.RIGHT_HAND)
