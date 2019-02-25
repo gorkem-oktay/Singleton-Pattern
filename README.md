@@ -11,4 +11,4 @@ Let's give a name to our character. But we should store it somewhere for later u
 
 So we should keep an instance and don't let anyone recreating it or a new one. We can make its contructor private. Good, now nobody except itself can create it. But nobody except itself can create it. So we need to add a static (class) method to access that instance and if it is not initialized before we need to initialize it just for the first time. And that's all. Our storage becomes singleton.
 
-It's very easy to implement and use singleton, it is composed of just one class anyway. However, we need to be careful about the implementation. Most applications (we should think all of it) are using multithreading. So they may access it evenly and 
+It's very easy to implement and use singleton, it is composed of just one class anyway. However, we need to be careful about the implementation. Most applications (we should think all of it) are using multithreading.
