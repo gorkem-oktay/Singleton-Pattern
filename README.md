@@ -4,7 +4,7 @@
 In these repositories, some design patterns are implemented to a mini game system for self education. They may not be suited to use in an actual game (directly anyway). However, it is good to have some examples underhand to take reference. And even if anyone wants to use them, you are welcome.
 
 ### Definition
-Singleton pattern, ensures a class has only one instance, and provides a global point of access to it.
+**_Singleton pattern_**, ensures a class has only one instance, and provides a global point of access to it.
 
 ### Description
 Let's give a name to our character. But we should store it somewhere for later use, and the storage may be accessed from anywhere in the project. Also there should be just one of it. If we create it everytime, we will lose previous states and data stored in it. 
